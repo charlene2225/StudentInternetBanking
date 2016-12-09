@@ -1,0 +1,52 @@
+body{ /*background picture*/
+	margin: 0 auto;
+	background-image: url("../img/picture.jpg");  /*this is how i chamge picture in background*/
+  background-repeat: no-repeat;
+  background-size: 100% 720px;
+}
+.container{ /*the middle page excluding the picture*/
+  width:500px;
+  height:400px;
+  text-align:center; /*this centeres the login boxes to the center*/
+  background-color:rgba(52, 73, 94, 0.7);   /*changes the color of the background and then i added a after rgb and the 0.7 aswell to make the colour transparet so we can see the picture. it gives it a really really coool affect*/
+  border-radius:4px;
+  margin:0 auto;
+  margin-top:150px; /*moved the middle box/page from the top */
+ }
+.container img{ /*I have put the logo for the website above the login part*/
+  width:120px;
+  height:120px;
+  margin-top:-60px;
+  margin-bottom:30px; /* i had margin-right at first but the image and login boxes were too close so i tried bottom as i wanted the boxes lower and it looked way better, it made it way more centered too*/
+ }
+input[type="text"],input[type="password"]{
+	height:45px;
+	width:300px;
+	font-size:18px;
+	margin-bottom:20px;
+	background-color;#fff;
+	padding-left:40px;  /*stops the writing in password and username boxes less crammed to the left.. */
+}
+.form-input::before{ /*not working for me need to figure out how to get an eye simbol or user symbol*/
+	content:"\f007"; /*line 204 in font awesome css folder*/
+	position:absolute;
+	font-family:"FontAwesome";
+	padding-left:5px;
+	color:#ff6600; /* I want it to be orange matching the logo */
+	padding-top:7px;
+	font-size:35px;
+}
+.form-input:nth-child(2)::before{
+	content:"\f023"; /*line 284 font awes css turns the emoji for password to a lock*/
+}
+.input-button{
+	padding: 15px 30px;
+	font-size:18px;
+	border-color:#000066;
+	margin-bottom:20px;
+	background-color:#ff6600;
+	border-radius: 4px;
+}
+a{
+	color: #fff;
+}
