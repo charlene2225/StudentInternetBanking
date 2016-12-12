@@ -1,0 +1,289 @@
+body{
+	background-color:#1A3564;
+	font-family:Arial;
+	font-size: 87.5%;
+	line-height: 1.5;
+	text-align: left;
+	 
+}
+/*this is to style the links */
+a {
+	text-decoration: none;
+	
+}
+
+a:link, a:visited{
+	color:#F85A01;
+}
+
+a:hover, a:active{
+	background-color:#F85A01;
+	color: #FFF;
+}
+
+.body{
+	margin: 0 auto;
+	width: 70%;
+	clear: both;
+}
+/* styling of the image */
+.mainheader img{
+	width: 20%;
+	height: auto;
+	margin: 2%;
+	
+}
+
+.mainheader nav{
+	background-color:#F85A01 ;
+	height:40px;
+	border-radius: 5px; 
+	-moz-border-radius: 5px; 
+	-webkit-border-radius: 5px; /*works with browsers in webkit */
+	
+}
+
+.mainheader nav ul{
+	list-style: none;
+	margin: 0 auto;
+}
+
+.mainheader nav ul li{
+	float: left;
+	display: inline;
+}
+
+.mainheader nav a:link, .mainheader nav a:visited {
+	color:#1A3564 ;
+	display: inline-block;
+	padding: 10px 20px;
+	height:20px;
+	/*come back to put in height*/
+}
+
+.mainheader nav a:hover, .mainheader nav a:active /*styling all the links and when you hover over them */
+.mainheader nav .active a:link .mainheader nav .active a:visited{
+	background-color: #F85A01;
+	text-shadow: none;
+	
+}
+/*adding the border to the nav bar */
+.mainheader nav ul li a{
+	border-radius: 5px; 
+	-moz-border-radius: 5px; 
+	-webkit-border-radius: 5px;
+}
+
+.maincontent{
+	line-height: 25px;
+	border-radius: 5px; 
+	-moz-border-radius: 5px; 
+	-webkit-border-radius: 5px;
+	/*overflow: hidden;....if to contarers are over each other the browser fixs it in such away that it will push one underneath*/
+	
+}
+
+.content{
+	width: 70%;
+	float: left;
+	border-radius: 5px; 
+	-moz-border-radius: 5px; 
+	-webkit-border-radius: 5px;
+}
+
+.topcontent{
+	background-color: #FFF;
+	border-radius: 5px; 
+	-moz-border-radius: 5px; 
+	-webkit-border-radius: 5px;
+	padding: 3% 5%;
+	margin-top: 2%;
+}
+
+.bottomcontent{
+	background-color: #FFF;
+	border-radius: 5px; 
+	-moz-border-radius: 5px; 
+	-webkit-border-radius: 5px;
+	padding: 3% 5%;
+	margin-top: 2%;
+}
+
+.top-sidebar{
+	width:21%;
+	float: left;
+	background-color: #FFF;
+	border-radius: 5px; 
+	-moz-border-radius: 5px; 
+	-webkit-border-radius: 5px;
+	margin: 2% 0 2% 3%; /*can apply all margins here in one line, goes clockwise (top2% right0 bottom2% left3%) */
+	padding: 2% 3%;
+}
+
+.middle-sidebar{
+	width:21%;
+	float: left;
+	background-color: #FFF;
+	border-radius: 5px; 
+	-moz-border-radius: 5px; 
+	-webkit-border-radius: 5px;
+	margin: 2% 0 2% 3%;
+	padding: 2% 3%;
+}
+
+.bottom-sidebar{
+	width:21%;
+	float: left;
+	background-color: #FFF;
+	border-radius: 5px; 
+	-moz-border-radius: 5px; 
+	-webkit-border-radius: 5px;
+	margin: 2% 0 2% 3%;
+	padding: 2% 3%;
+}
+
+.mainFooter{
+	width: 100%;
+	height: 40px;
+	float: left;
+	border-radius: 5px; 
+	-moz-border-radius: 5px; 
+	-webkit-border-radius: 5px;
+	background-color: #F85A01;
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+
+.mainFooter p {
+width: 92%;
+margin: 10px auto;
+color: #F85A01;
+}
+
+@media only screen and (min-width: 150px) and (max-width: 600px) 
+{
+	.body{
+	width: 90%;
+	font-size: 95%;
+}
+	.mainheader img{
+	width: 100%;
+}
+	.mainheader nav{
+	height:160px;
+}
+.mainheader nav ul{
+	padding-left:0
+}
+
+.mainheader nav ul li{
+	width:100%;
+	text-align:center;
+}
+
+.mainheader nav a:link, .mainheader nav a:visited {
+	height:20px;
+	padding: 10px 20px;
+	display:block;
+}
+
+.content{
+	width: 100%;
+	float: left;
+	margin-top: 2%;
+}
+
+.topcontent{
+	margin-top: 4%;
+}
+
+.bottomcontent{
+	margin-top: 3%;
+}
+.top-sidebar{
+	width:94%;
+	margin: 2% 0 2% 0%;
+	padding: 2% 3%;
+}
+
+.middle-sidebar{
+	width:94%;
+	margin: 2% 0 2% 0%;
+	padding: 2% 3%;
+}
+
+.bottom-sidebar{
+	width:94%;
+	margin: 2% 0 2% 0%;
+	padding: 2% 3%;
+}
+
+}
+table
+{ margin: 10px 0 30px 0;}
+
+table tr th, table tr td
+{ background:#F85A01 ;
+  color: #FFF;
+  padding: 7px 4px;
+  text-align: left;}
+  
+table tr td
+{ background: #F0EFE2;
+  color: #47433F;
+  border-top: 1px solid #F85A01;}
+  
+  .form_settings
+{ margin: 15px 0 0 0;}
+
+.form_settings p
+{ padding: 0 0 4px 0;}
+
+.form_settings span
+{ float: left; 
+  width: 200px; 
+  text-align: left;}
+  
+.form_settings input, .form_settings textarea
+{ padding: 5px; 
+  width: 299px; 
+  font: 100% arial; 
+  border: 1px solid #E5E5DB; 
+  background: #FFF; 
+  color: #47433F;}
+  
+.form_settings .submit
+{ font: 100% arial; 
+  border: 1px solid; 
+  width: 99px; 
+  margin: 0 0 0 212px; 
+  height: 33px;
+  padding: 2px 0 3px 0;
+  cursor: pointer; 
+  background:#F85A01 ; 
+  color: #FFF;}
+
+.form_settings textarea, .form_settings select
+{ font: 100% arial; 
+  width: 299px;}
+
+.form_settings select
+{ width: 310px;}
+
+.form_settings .checkbox
+{ margin: 4px 0; 
+  padding: 0; 
+  width: 14px;
+  border: 0;
+  background: none;}
+  
+  .separator
+{ width: 100%;
+  height: 0;
+  border-top: 1px solid #D9D5CF;
+  border-bottom: 1px solid #FFF;
+  margin: 0 0 20px 0;}
+  
+
+
+
